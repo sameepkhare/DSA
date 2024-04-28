@@ -1,0 +1,32 @@
+## Binary Search 
+
+find the mid by using mid = l + (r-l)/2; not with (l+r)/2 because this may out of bound in some cases. So, use (l + half).
+Range: [l,r];
+while ( l < r ){
+	if arr[m] < key
+		go right (l = m);
+	else if arr[m > key
+		go left (r = m -1);
+	else if arr[m] = key;
+		return m;
+	}
+return false;
+
+### Template-1: Smallest possible answer in the list of elements for a given condition (Lower-Bound)
+
+1. l = 0 and r = lenght(arr) - 1;
+2.	while ( l < r )
+		m = l + (r-l)/2;
+		if ( arr[m] < find ) --> Conditional Check
+			l = m + 1;
+		else
+			arr[m] > find
+3. 	return l ( or false )
+
+TC: O(logn)
+
+
+### Template-2:
+
+
+
